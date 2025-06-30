@@ -15,7 +15,7 @@ public class BasketballPlayer {
     public String getName() {
         return name;
     }
-
+ 
     public int getPoints() {
         return points;
     }
