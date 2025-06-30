@@ -1,0 +1,26 @@
+package prob1;
+
+/**
+ * Represents a basketball player.
+ */
+public class BasketballPlayer {
+    private String name;
+    private int points;
+
+    public BasketballPlayer(String name, int points) {
+        this.name = name;
+        this.points = points;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getPoints() {
+        return points;
+    }
+
+    public void score(int additionalPoints) {
+        points += additionalPoints;
+    }
+}
